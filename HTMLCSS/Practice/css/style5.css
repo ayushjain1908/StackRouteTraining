@@ -1,0 +1,17 @@
+.wrap{
+ width: 800px;
+ height: 800px;
+ background: blue;
+ margin:auto;
+ position:relative;
+
+}
+.box{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  background: red;
+  position: absolute;
+  left:30px;
+  top:30px;
+}
