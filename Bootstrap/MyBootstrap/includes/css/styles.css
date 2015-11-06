@@ -14,8 +14,23 @@ Notes:	 Hand coded while learning Bootstrap
    Layout
    -------------------------------------- */
 
+  #features{
+    text-align: center;
+  }
 
+  #features img{
+    margin: 0 0 20px;
+  }
+  #inputMessage{
+    margin-bottom: 15px;
+  }
 
+  footer{
+    background-color: #333;
+    color:#eee;
+    font-size: 11px;
+    padding: 20px;
+  }
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -31,7 +46,10 @@ Notes:	 Hand coded while learning Bootstrap
   .well .page-header h1{
     margin-top:0px;
   }
-
+ ul.unstyled{
+   list-style: none;
+   padding: 0;
+ }
 
 /* --------------------------------------
    Navbar
@@ -83,13 +101,49 @@ Notes:	 Hand coded while learning Bootstrap
     margin:20px 0;
   }
 
+ .tabbable img.thumbnail{
+    margin: 0 20px 10px 0;
+ }
+
+ .thumbnails{
+   margin:20px 0;
+ }
+ .thumbnail{
+   position: relative;
+ }
+ .thumbnail h3{
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 20px;
+ }
+ .thumbnail .price{
+   font-size: 22px;
+   position: absolute;
+   top:-10px;
+   right:-10px;
+   padding: 10px;
+ }
+
+ .thumbnail .price sup{
+   font-weight: normal;
+   font-size: 12px;
+ }
+.thumbnail span.glyphicon{
+  margin-right: 5px;
+}
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+  .thumbnail .price{
+    font-size: 14px;
+  }
+  .thumbnail .price sup{
+    font-size: 10px;
+  }
 }
 
 /* Landscape phone to portrait tablet */
