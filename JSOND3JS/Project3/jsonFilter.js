@@ -64,8 +64,46 @@ fs.readFile('data/datafile.json', 'utf8', function (err,data) {
   var eurGdp = 0;
   var afrPop = 0;
   var afrGdp = 0;
+  var countryToContinent ={
 
-
+      Argentina:"South America",
+      Australia:"Australia",
+      Brazil : "South America",
+      Canada: "North America",
+      China:"Asia",
+      France:"Europe",
+      Germany:"Europe",
+      India:"Asia",
+      Indonesia:"Asia",
+      Italy:"Europe",
+      Japan:"Asia",
+      Mexico:"North America",
+      'Republic of Korea':"Asia",
+      Russia:"Europe",
+      'Saudi Arabia':"Asia",
+      'South Africa':"Africa",
+      Turkey:"Asia",
+      'United Kingdom':"Europe",
+      USA:"North America",
+  }
+  var contPop ={
+    Africa : 0,
+    Asia : 0,
+    Australia:0,
+    Europe:0,
+    'North America' : 0,
+    'South America':0
+  }
+  var contGdp ={
+    Africa : 0,
+    Asia : 0,
+    Australia:0,
+    Europe:0,
+    'North America' : 0,
+    'South America':0
+  }
+  //console.log(countryToContinent);
+/*
   for(var i=0;i<popData.length;i++){
 
       if(popData[i].country == "China" || popData[i].country =="India" || popData[i].country =="Indonesia"
@@ -95,57 +133,65 @@ fs.readFile('data/datafile.json', 'utf8', function (err,data) {
      eurPop = eurPop + popData[i].population;
      eurGdp = eurGdp + gdpData[i].gdp;
    }
-  }
+ }*/
+
+ for(var i=0;i<popData.length;i++){
+   contPop[countryToContinent[popData[i].country]] += popData[i].population
+   contGdp[countryToContinent[popData[i].country]] += gdpData[i].gdp;
+
+ }
+ console.log(contPop);
+
   afr.continent = "Africa";
-  afr.population = afrPop;
+  afr.population = contPop['Africa'];
   contPopData.push(afr);
   afr ={};
   afr.continent = "Africa";
-  afr.gdp = afrGdp;
+  afr.gdp =contGdp['Africa'];
   contGdpData.push(afr);
 
   asia.continent = "Asia";
-  asia.population = asiaPop;
+  asia.population = contPop['Asia'];
   contPopData.push(asia);
   asia ={};
   asia.continent = "Asia";
-  asia.gdp = asiaGdp;
+  asia.gdp = contGdp["Asia"];
   contGdpData.push(asia);
 
   aus.continent = "Australia";
-  aus.population = ausPop;
+  aus.population = contPop['Australia'];
   contPopData.push(aus);
   aus ={};
   aus.continent = "Australia";
-  aus.gdp = ausGdp;
+  aus.gdp = contGdp['Australia'];
   contGdpData.push(aus);
 
   eur.continent = "Europe";
-  eur.population = eurPop;
+  eur.population = contPop['Europe'];
   contPopData.push(eur);
   eur ={};
   eur.continent = "Europe";
-  eur.gdp = eurGdp;
+  eur.gdp = contGdp['Europe'];
   contGdpData.push(eur);
 
   na.continent = "North America";
-  na.population = naPop;
+  na.population = contPop['North America'];
   contPopData.push(na);
   na ={};
   na.continent = "North America";
-  na.gdp = naGdp;
+  na.gdp = contGdp['North America'];
   contGdpData.push(na);
 
   sa.continent = "South America";
-  sa.population = saPop;
+  sa.population = contPop['South America'];
   contPopData.push(sa);
   sa ={};
   sa.continent = "South America";
-  sa.gdp = saGdp;
+  sa.gdp = contGdp['South America'];
   contGdpData.push(sa);
 
 
 
 
-  //console.log(JSON.stringify(purpowGrowthData,null,2));
+  //console.log(JSON.stringify(contGdpData,null,2));
 });
