@@ -102,39 +102,7 @@ fs.readFile('data/datafile.json', 'utf8', function (err,data) {
     'North America' : 0,
     'South America':0
   }
-  //console.log(countryToContinent);
-/*
-  for(var i=0;i<popData.length;i++){
-
-      if(popData[i].country == "China" || popData[i].country =="India" || popData[i].country =="Indonesia"
-    || popData[i].country =="Japan" || popData[i].country =="Republic of Korea" || popData[i].country =="Saudi Arabia"
-  || popData[i].country =="Turkey"){
-
-    asiaPop = asiaPop + popData[i].population;
-    asiaGdp = asiaGdp + gdpData[i].gdp;
-  }
-   else if(popData[i].country =="Argentina" || popData[i].country=="Brazil"){
-     saPop = saPop + popData[i].population;
-     saGdp = saGdp + gdpData[i].gdp;
-   }
-   else if(popData[i].country=="Canada" || popData[i].country=="Mexico" || popData[i].country=="USA"){
-     naPop = naPop + popData[i].population;
-     naGdp = naGdp + gdpData[i].gdp;
-   }
-   else if(popData[i].country=="Australia"){
-     ausPop = ausPop + popData[i].population;
-     ausGdp = ausGdp + gdpData[i].gdp;
-   }
-   else if(popData[i].country=="South Africa"){
-     afrPop = afrPop + popData[i].population;
-     afrGdp = afrGdp + gdpData[i].gdp;
-   }
-   else{
-     eurPop = eurPop + popData[i].population;
-     eurGdp = eurGdp + gdpData[i].gdp;
-   }
- }*/
-
+  
  for(var i=0;i<popData.length;i++){
    contPop[countryToContinent[popData[i].country]] += popData[i].population
    contGdp[countryToContinent[popData[i].country]] += gdpData[i].gdp;

@@ -1,4 +1,4 @@
-d3.json("/Project3/data/contGdpData.json",function(error,data){
+d3.json("data/contGdpData.json",function(error,data){
   if(error)
    return console.warn(error);
    //console.log(data);
