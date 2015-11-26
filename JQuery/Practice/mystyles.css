@@ -1,0 +1,24 @@
+body{
+ width: 500px;
+ margin: 0 auto;
+ text-align: center;
+}
+dl{
+
+}
+dt{
+ cursor: pointer;
+ font-weight: bold;
+ font-size:1.5em;
+ line-height: 2em;
+ background-color: deepskyblue;
+ border-bottom: 1px solid dodgerblue;
+ border-top: 1px solid white;
+}
+dd{
+  margin: 0;
+  padding:1em 0;
+}
+.hide{
+  display:none;
+}
