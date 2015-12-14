@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'search', 'iniparser' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose node symlink /usr/bin/node
+5 silly mapToRegistry name -/all
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry http://172.23.238.253:4873/
+8 silly mapToRegistry uri http://172.23.238.253:4873/-/all
+9 info updateIndex /home/vagrant/.npm/172.23.238.253_4873/-/all/.cache.json
+10 warn Building the local index for the first time, please be patient
+11 silly update-index fetching http://172.23.238.253:4873/-/all
+12 verbose request uri http://172.23.238.253:4873/-/all
+13 verbose request no auth needed
+14 info attempt registry request try #1 at 17:48:36
+15 verbose request id a18635cb42f123bd
+16 http request GET http://172.23.238.253:4873/-/all
+17 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+18 info attempt registry request try #2 at 17:50:54
+19 http request GET http://172.23.238.253:4873/-/all
+20 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+21 info attempt registry request try #3 at 17:54:01
+22 http request GET http://172.23.238.253:4873/-/all
+23 verbose stack Error: connect ETIMEDOUT
+23 verbose stack     at exports._errnoException (util.js:746:11)
+23 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+24 verbose cwd /vagrant/StackRouteTraining/ExpressJS/express-app
+25 error Linux 3.13.0-65-generic
+26 error argv "/usr/bin/node" "/usr/bin/npm" "search" "iniparser"
+27 error node v0.12.7
+28 error npm  v2.11.3
+29 error code ETIMEDOUT
+30 error errno ETIMEDOUT
+31 error syscall connect
+32 error network connect ETIMEDOUT
+32 error network This is most likely not a problem with npm itself
+32 error network and is related to network connectivity.
+32 error network In most cases you are behind a proxy or have bad network settings.
+32 error network
+32 error network If you are behind a proxy, please make sure that the
+32 error network 'proxy' config is set properly.  See: 'npm help config'
+33 verbose exit [ 1, true ]
