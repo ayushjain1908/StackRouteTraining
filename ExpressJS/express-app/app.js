@@ -33,6 +33,14 @@ app.get('/',function(req,res){
     // Pass two config variables to the view
    res.render('index',{title:config.title,message:config.message});
 });
+
+app.get('/user/:id',function(req,res){
+
+    res.send("user id: " + req.params.id);
+});
+app.get('/ab*cd',function(req,res){
+  res.send('ab*cd');
+});
 /*
 // A route for /say-hello  - will render a view
 app.get('/say-hello',function(req,res){
