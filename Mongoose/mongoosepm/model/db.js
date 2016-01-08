@@ -15,14 +15,14 @@ mongoose.connection.on('error',function(err){
   console.log('Mongoose connection error: ' + err);
 });
 
-mongoose.connection.on('disconnnected',fuction(){
+mongoose.connection.on('disconnnected',function(){
   console.log('Mongoose disconnected');
 });
 
 /*********************************************************************
                    USER SCHEMA
    ******************************************************* */
-var userSchema = new mongoose.schema({
+var userSchema = new mongoose.Schema({
   name : String,
   email : {type:String,unique:true},
   createdOn : {type:Date, default:Date.now},

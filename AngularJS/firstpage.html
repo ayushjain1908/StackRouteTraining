@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- <div ng-controller="SimpleController"> -->
+    <input type="text" ng-model="name" /> {{name}}
+     <ul>
+      <li ng-repeat = "cust in customers">
+        {{cust.name}} - {{cust.city}}
+      </li>
+    </ul>
+   <!-- </div> -->
+    <script src = "angular.min.js">
+    </script>
+   <script>
+     function SimpleController($scope){
+       $scope.customers = [{name:"Ayush",city:'Delhi'},{name:"Piyush",city:'New York'},{name:'Ankit',city:"London"}];
+     }
+   </script>
+  </body>
+</html>
