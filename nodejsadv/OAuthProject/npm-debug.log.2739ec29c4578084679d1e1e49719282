@@ -1,0 +1,1476 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData express
+20 silly mapToRegistry name express
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://172.23.238.253:4873/
+23 silly mapToRegistry uri http://172.23.238.253:4873/express
+24 silly fetchNamedPackageData cookie-parser
+25 silly mapToRegistry name cookie-parser
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry http://172.23.238.253:4873/
+28 silly mapToRegistry uri http://172.23.238.253:4873/cookie-parser
+29 silly fetchNamedPackageData express-session
+30 silly mapToRegistry name express-session
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry http://172.23.238.253:4873/
+33 silly mapToRegistry uri http://172.23.238.253:4873/express-session
+34 verbose request uri http://172.23.238.253:4873/express
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 10:21:10 AM
+37 verbose request id d121a4abec45da89
+38 verbose etag "eb7591ed546ccbe8fcc730997130516d"
+39 http request GET http://172.23.238.253:4873/express
+40 verbose request uri http://172.23.238.253:4873/cookie-parser
+41 verbose request no auth needed
+42 info attempt registry request try #1 at 10:21:10 AM
+43 verbose etag "f4e53ed80fe31e39e49b8c0b1376de3d"
+44 http request GET http://172.23.238.253:4873/cookie-parser
+45 verbose get http://172.23.238.253:4873/express-session not expired, no request
+46 silly resolveWithNewModule express-session@1.13.0 checking installable status
+47 silly cache add args [ 'express-session@latest', null ]
+48 verbose cache add spec express-session@latest
+49 silly cache add parsed spec Result {
+49 silly cache add   raw: 'express-session@latest',
+49 silly cache add   scope: null,
+49 silly cache add   name: 'express-session',
+49 silly cache add   rawSpec: 'latest',
+49 silly cache add   spec: 'latest',
+49 silly cache add   type: 'tag' }
+50 silly addNamed express-session@latest
+51 verbose addNamed "latest" is being treated as a dist-tag for express-session
+52 info addNameTag [ 'express-session', 'latest' ]
+53 silly mapToRegistry name express-session
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry http://172.23.238.253:4873/
+56 silly mapToRegistry uri http://172.23.238.253:4873/express-session
+57 verbose addNameTag registry:http://172.23.238.253:4873/express-session not in flight; fetching
+58 verbose get http://172.23.238.253:4873/express-session not expired, no request
+59 silly addNameTag next cb for express-session with tag latest
+60 silly addNamed express-session@1.13.0
+61 verbose addNamed "1.13.0" is a plain semver version for express-session
+62 silly cache afterAdd express-session@1.13.0
+63 verbose afterAdd /home/vagrant/.npm/express-session/1.13.0/package/package.json not in flight; writing
+64 verbose afterAdd /home/vagrant/.npm/express-session/1.13.0/package/package.json written
+65 http 304 http://172.23.238.253:4873/express
+66 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+66 verbose headers   etag: '"eb7591ed546ccbe8fcc730997130516d"',
+66 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+66 verbose headers   date: 'Wed, 20 Jan 2016 10:20:57 GMT',
+66 verbose headers   connection: 'keep-alive' }
+67 silly get cb [ 304,
+67 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+67 silly get     etag: '"eb7591ed546ccbe8fcc730997130516d"',
+67 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+67 silly get     date: 'Wed, 20 Jan 2016 10:20:57 GMT',
+67 silly get     connection: 'keep-alive' } ]
+68 verbose etag http://172.23.238.253:4873/express from cache
+69 verbose get saving express to /home/vagrant/.npm/172.23.238.253_4873/express/.cache.json
+70 silly resolveWithNewModule express@4.13.3 checking installable status
+71 silly cache add args [ 'express@latest', null ]
+72 verbose cache add spec express@latest
+73 silly cache add parsed spec Result {
+73 silly cache add   raw: 'express@latest',
+73 silly cache add   scope: null,
+73 silly cache add   name: 'express',
+73 silly cache add   rawSpec: 'latest',
+73 silly cache add   spec: 'latest',
+73 silly cache add   type: 'tag' }
+74 silly addNamed express@latest
+75 verbose addNamed "latest" is being treated as a dist-tag for express
+76 info addNameTag [ 'express', 'latest' ]
+77 silly mapToRegistry name express
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry http://172.23.238.253:4873/
+80 silly mapToRegistry uri http://172.23.238.253:4873/express
+81 verbose addNameTag registry:http://172.23.238.253:4873/express not in flight; fetching
+82 verbose get http://172.23.238.253:4873/express not expired, no request
+83 silly addNameTag next cb for express with tag latest
+84 silly addNamed express@4.13.3
+85 verbose addNamed "4.13.3" is a plain semver version for express
+86 silly cache afterAdd express@4.13.3
+87 verbose afterAdd /home/vagrant/.npm/express/4.13.3/package/package.json not in flight; writing
+88 verbose afterAdd /home/vagrant/.npm/express/4.13.3/package/package.json written
+89 http 304 http://172.23.238.253:4873/cookie-parser
+90 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+90 verbose headers   etag: '"f4e53ed80fe31e39e49b8c0b1376de3d"',
+90 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+90 verbose headers   date: 'Wed, 20 Jan 2016 10:20:58 GMT',
+90 verbose headers   connection: 'keep-alive' }
+91 silly get cb [ 304,
+91 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+91 silly get     etag: '"f4e53ed80fe31e39e49b8c0b1376de3d"',
+91 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+91 silly get     date: 'Wed, 20 Jan 2016 10:20:58 GMT',
+91 silly get     connection: 'keep-alive' } ]
+92 verbose etag http://172.23.238.253:4873/cookie-parser from cache
+93 verbose get saving cookie-parser to /home/vagrant/.npm/172.23.238.253_4873/cookie-parser/.cache.json
+94 silly resolveWithNewModule cookie-parser@1.4.1 checking installable status
+95 silly cache add args [ 'cookie-parser@latest', null ]
+96 verbose cache add spec cookie-parser@latest
+97 silly cache add parsed spec Result {
+97 silly cache add   raw: 'cookie-parser@latest',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'cookie-parser',
+97 silly cache add   rawSpec: 'latest',
+97 silly cache add   spec: 'latest',
+97 silly cache add   type: 'tag' }
+98 silly addNamed cookie-parser@latest
+99 verbose addNamed "latest" is being treated as a dist-tag for cookie-parser
+100 info addNameTag [ 'cookie-parser', 'latest' ]
+101 silly mapToRegistry name cookie-parser
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry http://172.23.238.253:4873/
+104 silly mapToRegistry uri http://172.23.238.253:4873/cookie-parser
+105 verbose addNameTag registry:http://172.23.238.253:4873/cookie-parser not in flight; fetching
+106 verbose get http://172.23.238.253:4873/cookie-parser not expired, no request
+107 silly addNameTag next cb for cookie-parser with tag latest
+108 silly addNamed cookie-parser@1.4.1
+109 verbose addNamed "1.4.1" is a plain semver version for cookie-parser
+110 silly cache afterAdd cookie-parser@1.4.1
+111 verbose afterAdd /home/vagrant/.npm/cookie-parser/1.4.1/package/package.json not in flight; writing
+112 verbose afterAdd /home/vagrant/.npm/cookie-parser/1.4.1/package/package.json written
+113 silly fetchNamedPackageData cookie
+114 silly mapToRegistry name cookie
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry http://172.23.238.253:4873/
+117 silly mapToRegistry uri http://172.23.238.253:4873/cookie
+118 verbose request uri http://172.23.238.253:4873/cookie
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 10:21:13 AM
+121 verbose etag "a175a254d64262ef0bf05b3644b71440"
+122 http request GET http://172.23.238.253:4873/cookie
+123 http 304 http://172.23.238.253:4873/cookie
+124 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+124 verbose headers   etag: '"a175a254d64262ef0bf05b3644b71440"',
+124 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+124 verbose headers   date: 'Wed, 20 Jan 2016 10:21:00 GMT',
+124 verbose headers   connection: 'keep-alive' }
+125 silly get cb [ 304,
+125 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+125 silly get     etag: '"a175a254d64262ef0bf05b3644b71440"',
+125 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+125 silly get     date: 'Wed, 20 Jan 2016 10:21:00 GMT',
+125 silly get     connection: 'keep-alive' } ]
+126 verbose etag http://172.23.238.253:4873/cookie from cache
+127 verbose get saving cookie to /home/vagrant/.npm/172.23.238.253_4873/cookie/.cache.json
+128 silly resolveWithNewModule cookie@0.2.3 checking installable status
+129 silly cache add args [ 'cookie@0.2.3', null ]
+130 verbose cache add spec cookie@0.2.3
+131 silly cache add parsed spec Result {
+131 silly cache add   raw: 'cookie@0.2.3',
+131 silly cache add   scope: null,
+131 silly cache add   name: 'cookie',
+131 silly cache add   rawSpec: '0.2.3',
+131 silly cache add   spec: '0.2.3',
+131 silly cache add   type: 'version' }
+132 silly addNamed cookie@0.2.3
+133 verbose addNamed "0.2.3" is a plain semver version for cookie
+134 silly mapToRegistry name cookie
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry http://172.23.238.253:4873/
+137 silly mapToRegistry uri http://172.23.238.253:4873/cookie
+138 verbose addNameVersion registry:http://172.23.238.253:4873/cookie not in flight; fetching
+139 verbose get http://172.23.238.253:4873/cookie not expired, no request
+140 silly cache afterAdd cookie@0.2.3
+141 verbose afterAdd /home/vagrant/.npm/cookie/0.2.3/package/package.json not in flight; writing
+142 verbose afterAdd /home/vagrant/.npm/cookie/0.2.3/package/package.json written
+143 silly fetchNamedPackageData serve-static
+144 silly mapToRegistry name serve-static
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry http://172.23.238.253:4873/
+147 silly mapToRegistry uri http://172.23.238.253:4873/serve-static
+148 verbose request uri http://172.23.238.253:4873/serve-static
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 10:21:15 AM
+151 verbose etag "8688c668eb5a0d8dac1a4cdf45b6e4b2"
+152 http request GET http://172.23.238.253:4873/serve-static
+153 http 304 http://172.23.238.253:4873/serve-static
+154 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+154 verbose headers   etag: '"8688c668eb5a0d8dac1a4cdf45b6e4b2"',
+154 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+154 verbose headers   date: 'Wed, 20 Jan 2016 10:21:00 GMT',
+154 verbose headers   connection: 'keep-alive' }
+155 silly get cb [ 304,
+155 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+155 silly get     etag: '"8688c668eb5a0d8dac1a4cdf45b6e4b2"',
+155 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+155 silly get     date: 'Wed, 20 Jan 2016 10:21:00 GMT',
+155 silly get     connection: 'keep-alive' } ]
+156 verbose etag http://172.23.238.253:4873/serve-static from cache
+157 verbose get saving serve-static to /home/vagrant/.npm/172.23.238.253_4873/serve-static/.cache.json
+158 silly resolveWithNewModule serve-static@1.10.2 checking installable status
+159 silly cache add args [ 'serve-static@~1.10.0', null ]
+160 verbose cache add spec serve-static@~1.10.0
+161 silly cache add parsed spec Result {
+161 silly cache add   raw: 'serve-static@~1.10.0',
+161 silly cache add   scope: null,
+161 silly cache add   name: 'serve-static',
+161 silly cache add   rawSpec: '~1.10.0',
+161 silly cache add   spec: '>=1.10.0 <1.11.0',
+161 silly cache add   type: 'range' }
+162 silly addNamed serve-static@>=1.10.0 <1.11.0
+163 verbose addNamed ">=1.10.0 <1.11.0" is a valid semver range for serve-static
+164 silly addNameRange { name: 'serve-static',
+164 silly addNameRange   range: '>=1.10.0 <1.11.0',
+164 silly addNameRange   hasData: false }
+165 silly mapToRegistry name serve-static
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry http://172.23.238.253:4873/
+168 silly mapToRegistry uri http://172.23.238.253:4873/serve-static
+169 verbose addNameRange registry:http://172.23.238.253:4873/serve-static not in flight; fetching
+170 verbose get http://172.23.238.253:4873/serve-static not expired, no request
+171 silly addNameRange number 2 { name: 'serve-static',
+171 silly addNameRange   range: '>=1.10.0 <1.11.0',
+171 silly addNameRange   hasData: true }
+172 silly addNameRange versions [ 'serve-static',
+172 silly addNameRange   [ '1.0.0',
+172 silly addNameRange     '1.0.1',
+172 silly addNameRange     '1.0.2',
+172 silly addNameRange     '1.0.3',
+172 silly addNameRange     '1.0.4',
+172 silly addNameRange     '1.1.0',
+172 silly addNameRange     '1.2.0',
+172 silly addNameRange     '1.2.1',
+172 silly addNameRange     '1.2.2',
+172 silly addNameRange     '1.2.3',
+172 silly addNameRange     '1.3.0',
+172 silly addNameRange     '1.3.1',
+172 silly addNameRange     '1.3.2',
+172 silly addNameRange     '1.4.0',
+172 silly addNameRange     '1.4.1',
+172 silly addNameRange     '1.4.2',
+172 silly addNameRange     '1.4.3',
+172 silly addNameRange     '1.4.4',
+172 silly addNameRange     '1.5.0',
+172 silly addNameRange     '1.5.1',
+172 silly addNameRange     '1.5.2',
+172 silly addNameRange     '1.5.3',
+172 silly addNameRange     '1.5.4',
+172 silly addNameRange     '1.6.0',
+172 silly addNameRange     '1.6.1',
+172 silly addNameRange     '1.6.2',
+172 silly addNameRange     '1.6.3',
+172 silly addNameRange     '1.6.4',
+172 silly addNameRange     '1.7.0',
+172 silly addNameRange     '1.7.1',
+172 silly addNameRange     '1.7.2',
+172 silly addNameRange     '1.8.0',
+172 silly addNameRange     '1.8.1',
+172 silly addNameRange     '1.6.5',
+172 silly addNameRange     '1.9.0',
+172 silly addNameRange     '1.9.1',
+172 silly addNameRange     '1.9.2',
+172 silly addNameRange     '1.9.3',
+172 silly addNameRange     '1.10.0',
+172 silly addNameRange     '1.10.1',
+172 silly addNameRange     '1.10.2' ] ]
+173 silly addNamed serve-static@1.10.2
+174 verbose addNamed "1.10.2" is a plain semver version for serve-static
+175 silly cache afterAdd serve-static@1.10.2
+176 verbose afterAdd /home/vagrant/.npm/serve-static/1.10.2/package/package.json not in flight; writing
+177 verbose afterAdd /home/vagrant/.npm/serve-static/1.10.2/package/package.json written
+178 silly fetchNamedPackageData mime
+179 silly mapToRegistry name mime
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry http://172.23.238.253:4873/
+182 silly mapToRegistry uri http://172.23.238.253:4873/mime
+183 verbose request uri http://172.23.238.253:4873/mime
+184 verbose request no auth needed
+185 info attempt registry request try #1 at 10:21:15 AM
+186 verbose etag "8d81a5b34a3be5515ed58ba3b5584c6c"
+187 http request GET http://172.23.238.253:4873/mime
+188 http 304 http://172.23.238.253:4873/mime
+189 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+189 verbose headers   etag: '"8d81a5b34a3be5515ed58ba3b5584c6c"',
+189 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+189 verbose headers   date: 'Wed, 20 Jan 2016 10:21:02 GMT',
+189 verbose headers   connection: 'keep-alive' }
+190 silly get cb [ 304,
+190 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+190 silly get     etag: '"8d81a5b34a3be5515ed58ba3b5584c6c"',
+190 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+190 silly get     date: 'Wed, 20 Jan 2016 10:21:02 GMT',
+190 silly get     connection: 'keep-alive' } ]
+191 verbose etag http://172.23.238.253:4873/mime from cache
+192 verbose get saving mime to /home/vagrant/.npm/172.23.238.253_4873/mime/.cache.json
+193 silly resolveWithNewModule mime@1.3.4 checking installable status
+194 silly cache add args [ 'mime@1.3.4', null ]
+195 verbose cache add spec mime@1.3.4
+196 silly cache add parsed spec Result {
+196 silly cache add   raw: 'mime@1.3.4',
+196 silly cache add   scope: null,
+196 silly cache add   name: 'mime',
+196 silly cache add   rawSpec: '1.3.4',
+196 silly cache add   spec: '1.3.4',
+196 silly cache add   type: 'version' }
+197 silly addNamed mime@1.3.4
+198 verbose addNamed "1.3.4" is a plain semver version for mime
+199 silly mapToRegistry name mime
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry http://172.23.238.253:4873/
+202 silly mapToRegistry uri http://172.23.238.253:4873/mime
+203 verbose addNameVersion registry:http://172.23.238.253:4873/mime not in flight; fetching
+204 verbose get http://172.23.238.253:4873/mime not expired, no request
+205 silly cache afterAdd mime@1.3.4
+206 verbose afterAdd /home/vagrant/.npm/mime/1.3.4/package/package.json not in flight; writing
+207 verbose afterAdd /home/vagrant/.npm/mime/1.3.4/package/package.json written
+208 silly fetchNamedPackageData escape-html
+209 silly mapToRegistry name escape-html
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry http://172.23.238.253:4873/
+212 silly mapToRegistry uri http://172.23.238.253:4873/escape-html
+213 silly fetchNamedPackageData send
+214 silly mapToRegistry name send
+215 silly mapToRegistry using default registry
+216 silly mapToRegistry registry http://172.23.238.253:4873/
+217 silly mapToRegistry uri http://172.23.238.253:4873/send
+218 verbose request uri http://172.23.238.253:4873/escape-html
+219 verbose request no auth needed
+220 info attempt registry request try #1 at 10:21:17 AM
+221 verbose etag "0f004c6bdb1d9177c74c37ccc9e6f3f4"
+222 http request GET http://172.23.238.253:4873/escape-html
+223 verbose request uri http://172.23.238.253:4873/send
+224 verbose request no auth needed
+225 info attempt registry request try #1 at 10:21:17 AM
+226 verbose etag "aa7d48847f8ab6ef28c85a9bed6a298a"
+227 http request GET http://172.23.238.253:4873/send
+228 http 304 http://172.23.238.253:4873/send
+229 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+229 verbose headers   etag: '"aa7d48847f8ab6ef28c85a9bed6a298a"',
+229 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+229 verbose headers   date: 'Wed, 20 Jan 2016 10:21:04 GMT',
+229 verbose headers   connection: 'keep-alive' }
+230 silly get cb [ 304,
+230 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+230 silly get     etag: '"aa7d48847f8ab6ef28c85a9bed6a298a"',
+230 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+230 silly get     date: 'Wed, 20 Jan 2016 10:21:04 GMT',
+230 silly get     connection: 'keep-alive' } ]
+231 verbose etag http://172.23.238.253:4873/send from cache
+232 verbose get saving send to /home/vagrant/.npm/172.23.238.253_4873/send/.cache.json
+233 silly resolveWithNewModule send@0.13.1 checking installable status
+234 silly cache add args [ 'send@0.13.1', null ]
+235 verbose cache add spec send@0.13.1
+236 silly cache add parsed spec Result {
+236 silly cache add   raw: 'send@0.13.1',
+236 silly cache add   scope: null,
+236 silly cache add   name: 'send',
+236 silly cache add   rawSpec: '0.13.1',
+236 silly cache add   spec: '0.13.1',
+236 silly cache add   type: 'version' }
+237 silly addNamed send@0.13.1
+238 verbose addNamed "0.13.1" is a plain semver version for send
+239 silly mapToRegistry name send
+240 silly mapToRegistry using default registry
+241 silly mapToRegistry registry http://172.23.238.253:4873/
+242 silly mapToRegistry uri http://172.23.238.253:4873/send
+243 verbose addNameVersion registry:http://172.23.238.253:4873/send not in flight; fetching
+244 verbose get http://172.23.238.253:4873/send not expired, no request
+245 silly cache afterAdd send@0.13.1
+246 verbose afterAdd /home/vagrant/.npm/send/0.13.1/package/package.json not in flight; writing
+247 verbose afterAdd /home/vagrant/.npm/send/0.13.1/package/package.json written
+248 http 304 http://172.23.238.253:4873/escape-html
+249 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+249 verbose headers   etag: '"0f004c6bdb1d9177c74c37ccc9e6f3f4"',
+249 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+249 verbose headers   date: 'Wed, 20 Jan 2016 10:21:04 GMT',
+249 verbose headers   connection: 'keep-alive' }
+250 silly get cb [ 304,
+250 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+250 silly get     etag: '"0f004c6bdb1d9177c74c37ccc9e6f3f4"',
+250 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+250 silly get     date: 'Wed, 20 Jan 2016 10:21:04 GMT',
+250 silly get     connection: 'keep-alive' } ]
+251 verbose etag http://172.23.238.253:4873/escape-html from cache
+252 verbose get saving escape-html to /home/vagrant/.npm/172.23.238.253_4873/escape-html/.cache.json
+253 silly resolveWithNewModule escape-html@1.0.3 checking installable status
+254 silly cache add args [ 'escape-html@~1.0.3', null ]
+255 verbose cache add spec escape-html@~1.0.3
+256 silly cache add parsed spec Result {
+256 silly cache add   raw: 'escape-html@~1.0.3',
+256 silly cache add   scope: null,
+256 silly cache add   name: 'escape-html',
+256 silly cache add   rawSpec: '~1.0.3',
+256 silly cache add   spec: '>=1.0.3 <1.1.0',
+256 silly cache add   type: 'range' }
+257 silly addNamed escape-html@>=1.0.3 <1.1.0
+258 verbose addNamed ">=1.0.3 <1.1.0" is a valid semver range for escape-html
+259 silly addNameRange { name: 'escape-html', range: '>=1.0.3 <1.1.0', hasData: false }
+260 silly mapToRegistry name escape-html
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry http://172.23.238.253:4873/
+263 silly mapToRegistry uri http://172.23.238.253:4873/escape-html
+264 verbose addNameRange registry:http://172.23.238.253:4873/escape-html not in flight; fetching
+265 verbose get http://172.23.238.253:4873/escape-html not expired, no request
+266 silly addNameRange number 2 { name: 'escape-html', range: '>=1.0.3 <1.1.0', hasData: true }
+267 silly addNameRange versions [ 'escape-html',
+267 silly addNameRange   [ '0.0.1', '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+268 silly addNamed escape-html@1.0.3
+269 verbose addNamed "1.0.3" is a plain semver version for escape-html
+270 silly cache afterAdd escape-html@1.0.3
+271 verbose afterAdd /home/vagrant/.npm/escape-html/1.0.3/package/package.json not in flight; writing
+272 verbose afterAdd /home/vagrant/.npm/escape-html/1.0.3/package/package.json written
+273 silly fetchNamedPackageData depd
+274 silly mapToRegistry name depd
+275 silly mapToRegistry using default registry
+276 silly mapToRegistry registry http://172.23.238.253:4873/
+277 silly mapToRegistry uri http://172.23.238.253:4873/depd
+278 silly fetchNamedPackageData destroy
+279 silly mapToRegistry name destroy
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry http://172.23.238.253:4873/
+282 silly mapToRegistry uri http://172.23.238.253:4873/destroy
+283 verbose request uri http://172.23.238.253:4873/depd
+284 verbose request no auth needed
+285 info attempt registry request try #1 at 10:21:19 AM
+286 verbose etag "00e1f680ec619de143f6ceb4b0da7be9"
+287 http request GET http://172.23.238.253:4873/depd
+288 verbose request uri http://172.23.238.253:4873/destroy
+289 verbose request no auth needed
+290 info attempt registry request try #1 at 10:21:19 AM
+291 verbose etag "cfe86fa56e43faa1055766cfb841a7b2"
+292 http request GET http://172.23.238.253:4873/destroy
+293 http 304 http://172.23.238.253:4873/depd
+294 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+294 verbose headers   etag: '"00e1f680ec619de143f6ceb4b0da7be9"',
+294 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+294 verbose headers   date: 'Wed, 20 Jan 2016 10:21:05 GMT',
+294 verbose headers   connection: 'keep-alive' }
+295 silly get cb [ 304,
+295 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+295 silly get     etag: '"00e1f680ec619de143f6ceb4b0da7be9"',
+295 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+295 silly get     date: 'Wed, 20 Jan 2016 10:21:05 GMT',
+295 silly get     connection: 'keep-alive' } ]
+296 verbose etag http://172.23.238.253:4873/depd from cache
+297 verbose get saving depd to /home/vagrant/.npm/172.23.238.253_4873/depd/.cache.json
+298 silly resolveWithNewModule depd@1.1.0 checking installable status
+299 silly cache add args [ 'depd@~1.1.0', null ]
+300 verbose cache add spec depd@~1.1.0
+301 silly cache add parsed spec Result {
+301 silly cache add   raw: 'depd@~1.1.0',
+301 silly cache add   scope: null,
+301 silly cache add   name: 'depd',
+301 silly cache add   rawSpec: '~1.1.0',
+301 silly cache add   spec: '>=1.1.0 <1.2.0',
+301 silly cache add   type: 'range' }
+302 silly addNamed depd@>=1.1.0 <1.2.0
+303 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for depd
+304 silly addNameRange { name: 'depd', range: '>=1.1.0 <1.2.0', hasData: false }
+305 silly mapToRegistry name depd
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry http://172.23.238.253:4873/
+308 silly mapToRegistry uri http://172.23.238.253:4873/depd
+309 verbose addNameRange registry:http://172.23.238.253:4873/depd not in flight; fetching
+310 verbose get http://172.23.238.253:4873/depd not expired, no request
+311 silly addNameRange number 2 { name: 'depd', range: '>=1.1.0 <1.2.0', hasData: true }
+312 silly addNameRange versions [ 'depd',
+312 silly addNameRange   [ '0.0.0',
+312 silly addNameRange     '0.0.1',
+312 silly addNameRange     '0.1.0',
+312 silly addNameRange     '0.2.0',
+312 silly addNameRange     '0.3.0',
+312 silly addNameRange     '0.4.0',
+312 silly addNameRange     '0.4.1',
+312 silly addNameRange     '0.4.2',
+312 silly addNameRange     '0.4.3',
+312 silly addNameRange     '0.4.4',
+312 silly addNameRange     '0.4.5',
+312 silly addNameRange     '1.0.0',
+312 silly addNameRange     '1.0.1',
+312 silly addNameRange     '1.1.0' ] ]
+313 silly addNamed depd@1.1.0
+314 verbose addNamed "1.1.0" is a plain semver version for depd
+315 silly cache afterAdd depd@1.1.0
+316 verbose afterAdd /home/vagrant/.npm/depd/1.1.0/package/package.json not in flight; writing
+317 verbose afterAdd /home/vagrant/.npm/depd/1.1.0/package/package.json written
+318 http 304 http://172.23.238.253:4873/destroy
+319 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+319 verbose headers   etag: '"cfe86fa56e43faa1055766cfb841a7b2"',
+319 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+319 verbose headers   date: 'Wed, 20 Jan 2016 10:21:07 GMT',
+319 verbose headers   connection: 'keep-alive' }
+320 silly get cb [ 304,
+320 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+320 silly get     etag: '"cfe86fa56e43faa1055766cfb841a7b2"',
+320 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+320 silly get     date: 'Wed, 20 Jan 2016 10:21:07 GMT',
+320 silly get     connection: 'keep-alive' } ]
+321 verbose etag http://172.23.238.253:4873/destroy from cache
+322 verbose get saving destroy to /home/vagrant/.npm/172.23.238.253_4873/destroy/.cache.json
+323 silly resolveWithNewModule destroy@1.0.4 checking installable status
+324 silly cache add args [ 'destroy@~1.0.4', null ]
+325 verbose cache add spec destroy@~1.0.4
+326 silly cache add parsed spec Result {
+326 silly cache add   raw: 'destroy@~1.0.4',
+326 silly cache add   scope: null,
+326 silly cache add   name: 'destroy',
+326 silly cache add   rawSpec: '~1.0.4',
+326 silly cache add   spec: '>=1.0.4 <1.1.0',
+326 silly cache add   type: 'range' }
+327 silly addNamed destroy@>=1.0.4 <1.1.0
+328 verbose addNamed ">=1.0.4 <1.1.0" is a valid semver range for destroy
+329 silly addNameRange { name: 'destroy', range: '>=1.0.4 <1.1.0', hasData: false }
+330 silly mapToRegistry name destroy
+331 silly mapToRegistry using default registry
+332 silly mapToRegistry registry http://172.23.238.253:4873/
+333 silly mapToRegistry uri http://172.23.238.253:4873/destroy
+334 verbose addNameRange registry:http://172.23.238.253:4873/destroy not in flight; fetching
+335 verbose get http://172.23.238.253:4873/destroy not expired, no request
+336 silly addNameRange number 2 { name: 'destroy', range: '>=1.0.4 <1.1.0', hasData: true }
+337 silly addNameRange versions [ 'destroy', [ '1.0.3', '1.0.4' ] ]
+338 silly addNamed destroy@1.0.4
+339 verbose addNamed "1.0.4" is a plain semver version for destroy
+340 silly cache afterAdd destroy@1.0.4
+341 verbose afterAdd /home/vagrant/.npm/destroy/1.0.4/package/package.json not in flight; writing
+342 verbose afterAdd /home/vagrant/.npm/destroy/1.0.4/package/package.json written
+343 silly fetchNamedPackageData cookie
+344 silly mapToRegistry name cookie
+345 silly mapToRegistry using default registry
+346 silly mapToRegistry registry http://172.23.238.253:4873/
+347 silly mapToRegistry uri http://172.23.238.253:4873/cookie
+348 silly fetchNamedPackageData crc
+349 silly mapToRegistry name crc
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry http://172.23.238.253:4873/
+352 silly mapToRegistry uri http://172.23.238.253:4873/crc
+353 silly fetchNamedPackageData depd
+354 silly mapToRegistry name depd
+355 silly mapToRegistry using default registry
+356 silly mapToRegistry registry http://172.23.238.253:4873/
+357 silly mapToRegistry uri http://172.23.238.253:4873/depd
+358 silly fetchNamedPackageData uid-safe
+359 silly mapToRegistry name uid-safe
+360 silly mapToRegistry using default registry
+361 silly mapToRegistry registry http://172.23.238.253:4873/
+362 silly mapToRegistry uri http://172.23.238.253:4873/uid-safe
+363 verbose request uri http://172.23.238.253:4873/crc
+364 verbose request no auth needed
+365 info attempt registry request try #1 at 10:21:22 AM
+366 verbose etag "bdd5107f604935b8801fe0ee9381ceb0"
+367 http request GET http://172.23.238.253:4873/crc
+368 verbose request uri http://172.23.238.253:4873/uid-safe
+369 verbose request no auth needed
+370 info attempt registry request try #1 at 10:21:22 AM
+371 verbose etag "9c03a563f8e204d5a71dc431fda93315"
+372 http request GET http://172.23.238.253:4873/uid-safe
+373 http 304 http://172.23.238.253:4873/crc
+374 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+374 verbose headers   etag: '"bdd5107f604935b8801fe0ee9381ceb0"',
+374 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+374 verbose headers   date: 'Wed, 20 Jan 2016 10:21:08 GMT',
+374 verbose headers   connection: 'keep-alive' }
+375 silly get cb [ 304,
+375 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+375 silly get     etag: '"bdd5107f604935b8801fe0ee9381ceb0"',
+375 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+375 silly get     date: 'Wed, 20 Jan 2016 10:21:08 GMT',
+375 silly get     connection: 'keep-alive' } ]
+376 verbose etag http://172.23.238.253:4873/crc from cache
+377 verbose get saving crc to /home/vagrant/.npm/172.23.238.253_4873/crc/.cache.json
+378 silly resolveWithNewModule crc@3.4.0 checking installable status
+379 silly cache add args [ 'crc@3.4.0', null ]
+380 verbose cache add spec crc@3.4.0
+381 silly cache add parsed spec Result {
+381 silly cache add   raw: 'crc@3.4.0',
+381 silly cache add   scope: null,
+381 silly cache add   name: 'crc',
+381 silly cache add   rawSpec: '3.4.0',
+381 silly cache add   spec: '3.4.0',
+381 silly cache add   type: 'version' }
+382 silly addNamed crc@3.4.0
+383 verbose addNamed "3.4.0" is a plain semver version for crc
+384 silly mapToRegistry name crc
+385 silly mapToRegistry using default registry
+386 silly mapToRegistry registry http://172.23.238.253:4873/
+387 silly mapToRegistry uri http://172.23.238.253:4873/crc
+388 verbose addNameVersion registry:http://172.23.238.253:4873/crc not in flight; fetching
+389 verbose get http://172.23.238.253:4873/crc not expired, no request
+390 silly cache afterAdd crc@3.4.0
+391 verbose afterAdd /home/vagrant/.npm/crc/3.4.0/package/package.json not in flight; writing
+392 verbose afterAdd /home/vagrant/.npm/crc/3.4.0/package/package.json written
+393 http 304 http://172.23.238.253:4873/uid-safe
+394 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+394 verbose headers   etag: '"9c03a563f8e204d5a71dc431fda93315"',
+394 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+394 verbose headers   date: 'Wed, 20 Jan 2016 10:21:10 GMT',
+394 verbose headers   connection: 'keep-alive' }
+395 silly get cb [ 304,
+395 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+395 silly get     etag: '"9c03a563f8e204d5a71dc431fda93315"',
+395 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+395 silly get     date: 'Wed, 20 Jan 2016 10:21:10 GMT',
+395 silly get     connection: 'keep-alive' } ]
+396 verbose etag http://172.23.238.253:4873/uid-safe from cache
+397 verbose get saving uid-safe to /home/vagrant/.npm/172.23.238.253_4873/uid-safe/.cache.json
+398 silly resolveWithNewModule uid-safe@2.0.0 checking installable status
+399 silly cache add args [ 'uid-safe@~2.0.0', null ]
+400 verbose cache add spec uid-safe@~2.0.0
+401 silly cache add parsed spec Result {
+401 silly cache add   raw: 'uid-safe@~2.0.0',
+401 silly cache add   scope: null,
+401 silly cache add   name: 'uid-safe',
+401 silly cache add   rawSpec: '~2.0.0',
+401 silly cache add   spec: '>=2.0.0 <2.1.0',
+401 silly cache add   type: 'range' }
+402 silly addNamed uid-safe@>=2.0.0 <2.1.0
+403 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for uid-safe
+404 silly addNameRange { name: 'uid-safe', range: '>=2.0.0 <2.1.0', hasData: false }
+405 silly mapToRegistry name uid-safe
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry http://172.23.238.253:4873/
+408 silly mapToRegistry uri http://172.23.238.253:4873/uid-safe
+409 verbose addNameRange registry:http://172.23.238.253:4873/uid-safe not in flight; fetching
+410 verbose get http://172.23.238.253:4873/uid-safe not expired, no request
+411 silly addNameRange number 2 { name: 'uid-safe', range: '>=2.0.0 <2.1.0', hasData: true }
+412 silly addNameRange versions [ 'uid-safe',
+412 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.1.0', '2.0.0', '2.1.0' ] ]
+413 silly addNamed uid-safe@2.0.0
+414 verbose addNamed "2.0.0" is a plain semver version for uid-safe
+415 silly cache afterAdd uid-safe@2.0.0
+416 verbose afterAdd /home/vagrant/.npm/uid-safe/2.0.0/package/package.json not in flight; writing
+417 verbose afterAdd /home/vagrant/.npm/uid-safe/2.0.0/package/package.json written
+418 silly fetchNamedPackageData base64-url
+419 silly mapToRegistry name base64-url
+420 silly mapToRegistry using default registry
+421 silly mapToRegistry registry http://172.23.238.253:4873/
+422 silly mapToRegistry uri http://172.23.238.253:4873/base64-url
+423 verbose request uri http://172.23.238.253:4873/base64-url
+424 verbose request no auth needed
+425 info attempt registry request try #1 at 10:21:25 AM
+426 verbose etag "6a9c998b386c2aed94a747c3b38d7918"
+427 http request GET http://172.23.238.253:4873/base64-url
+428 http 304 http://172.23.238.253:4873/base64-url
+429 verbose headers { 'x-powered-by': 'Sinopia/1.4.0',
+429 verbose headers   etag: '"6a9c998b386c2aed94a747c3b38d7918"',
+429 verbose headers   'x-status-cat': 'http://flic.kr/p/aXY3dH',
+429 verbose headers   date: 'Wed, 20 Jan 2016 10:21:11 GMT',
+429 verbose headers   connection: 'keep-alive' }
+430 silly get cb [ 304,
+430 silly get   { 'x-powered-by': 'Sinopia/1.4.0',
+430 silly get     etag: '"6a9c998b386c2aed94a747c3b38d7918"',
+430 silly get     'x-status-cat': 'http://flic.kr/p/aXY3dH',
+430 silly get     date: 'Wed, 20 Jan 2016 10:21:11 GMT',
+430 silly get     connection: 'keep-alive' } ]
+431 verbose etag http://172.23.238.253:4873/base64-url from cache
+432 verbose get saving base64-url to /home/vagrant/.npm/172.23.238.253_4873/base64-url/.cache.json
+433 silly resolveWithNewModule base64-url@1.2.1 checking installable status
+434 silly cache add args [ 'base64-url@1.2.1', null ]
+435 verbose cache add spec base64-url@1.2.1
+436 silly cache add parsed spec Result {
+436 silly cache add   raw: 'base64-url@1.2.1',
+436 silly cache add   scope: null,
+436 silly cache add   name: 'base64-url',
+436 silly cache add   rawSpec: '1.2.1',
+436 silly cache add   spec: '1.2.1',
+436 silly cache add   type: 'version' }
+437 silly addNamed base64-url@1.2.1
+438 verbose addNamed "1.2.1" is a plain semver version for base64-url
+439 silly mapToRegistry name base64-url
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry http://172.23.238.253:4873/
+442 silly mapToRegistry uri http://172.23.238.253:4873/base64-url
+443 verbose addNameVersion registry:http://172.23.238.253:4873/base64-url not in flight; fetching
+444 verbose get http://172.23.238.253:4873/base64-url not expired, no request
+445 silly cache afterAdd base64-url@1.2.1
+446 verbose afterAdd /home/vagrant/.npm/base64-url/1.2.1/package/package.json not in flight; writing
+447 verbose afterAdd /home/vagrant/.npm/base64-url/1.2.1/package/package.json written
+448 silly loadAllDepsIntoIdealTree Finishing
+449 silly idealTree:prePrune oauthproject@1.0.0
+449 silly idealTree:prePrune ├── accepts@1.2.13
+449 silly idealTree:prePrune ├── array-flatten@1.1.1
+449 silly idealTree:prePrune ├── base64-url@1.2.1
+449 silly idealTree:prePrune ├── basic-auth@1.0.3
+449 silly idealTree:prePrune ├── content-disposition@0.5.0
+449 silly idealTree:prePrune ├── content-type@1.0.1
+449 silly idealTree:prePrune ├─┬ cookie-parser@1.4.1
+449 silly idealTree:prePrune │ └── cookie@0.2.3
+449 silly idealTree:prePrune ├── cookie-signature@1.0.6
+449 silly idealTree:prePrune ├── cookie@0.1.3
+449 silly idealTree:prePrune ├── crc@3.4.0
+449 silly idealTree:prePrune ├── debug@2.2.0
+449 silly idealTree:prePrune ├── depd@1.0.1
+449 silly idealTree:prePrune ├── destroy@1.0.3
+449 silly idealTree:prePrune ├── ee-first@1.1.1
+449 silly idealTree:prePrune ├── escape-html@1.0.2
+449 silly idealTree:prePrune ├── etag@1.7.0
+449 silly idealTree:prePrune ├─┬ express-session@1.13.0
+449 silly idealTree:prePrune │ ├── cookie@0.2.3
+449 silly idealTree:prePrune │ └── depd@1.1.0
+449 silly idealTree:prePrune ├── express@4.13.3
+449 silly idealTree:prePrune ├── finalhandler@0.4.0
+449 silly idealTree:prePrune ├── forwarded@0.1.0
+449 silly idealTree:prePrune ├── fresh@0.3.0
+449 silly idealTree:prePrune ├── http-errors@1.3.1
+449 silly idealTree:prePrune ├── inherits@2.0.1
+449 silly idealTree:prePrune ├── ipaddr.js@1.0.5
+449 silly idealTree:prePrune ├── media-typer@0.3.0
+449 silly idealTree:prePrune ├── merge-descriptors@1.0.0
+449 silly idealTree:prePrune ├── methods@1.1.2
+449 silly idealTree:prePrune ├── mime-db@1.21.0
+449 silly idealTree:prePrune ├── mime-types@2.1.9
+449 silly idealTree:prePrune ├── mime@1.3.4
+449 silly idealTree:prePrune ├── morgan@1.6.1
+449 silly idealTree:prePrune ├── ms@0.7.1
+449 silly idealTree:prePrune ├── negotiator@0.5.3
+449 silly idealTree:prePrune ├── on-finished@2.3.0
+449 silly idealTree:prePrune ├── on-headers@1.0.1
+449 silly idealTree:prePrune ├── parseurl@1.3.1
+449 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+449 silly idealTree:prePrune ├── proxy-addr@1.0.10
+449 silly idealTree:prePrune ├── qs@4.0.0
+449 silly idealTree:prePrune ├── range-parser@1.0.3
+449 silly idealTree:prePrune ├── send@0.13.0
+449 silly idealTree:prePrune ├─┬ serve-static@1.10.2
+449 silly idealTree:prePrune │ ├── depd@1.1.0
+449 silly idealTree:prePrune │ ├── destroy@1.0.4
+449 silly idealTree:prePrune │ ├── escape-html@1.0.3
+449 silly idealTree:prePrune │ └── send@0.13.1
+449 silly idealTree:prePrune ├── statuses@1.2.1
+449 silly idealTree:prePrune ├── type-is@1.6.10
+449 silly idealTree:prePrune ├── uid-safe@2.0.0
+449 silly idealTree:prePrune ├── unpipe@1.0.0
+449 silly idealTree:prePrune ├── utils-merge@1.0.0
+449 silly idealTree:prePrune └── vary@1.0.1
+450 silly loadIdealTree Finishing
+451 silly currentTree oauthproject@1.0.0
+451 silly currentTree ├── accepts@1.2.13
+451 silly currentTree ├── array-flatten@1.1.1
+451 silly currentTree ├── basic-auth@1.0.3
+451 silly currentTree ├── content-disposition@0.5.0
+451 silly currentTree ├── content-type@1.0.1
+451 silly currentTree ├── cookie-signature@1.0.6
+451 silly currentTree ├── cookie@0.1.3
+451 silly currentTree ├── debug@2.2.0
+451 silly currentTree ├── depd@1.0.1
+451 silly currentTree ├── destroy@1.0.3
+451 silly currentTree ├── ee-first@1.1.1
+451 silly currentTree ├── escape-html@1.0.2
+451 silly currentTree ├── etag@1.7.0
+451 silly currentTree ├── finalhandler@0.4.0
+451 silly currentTree ├── forwarded@0.1.0
+451 silly currentTree ├── fresh@0.3.0
+451 silly currentTree ├── http-errors@1.3.1
+451 silly currentTree ├── inherits@2.0.1
+451 silly currentTree ├── ipaddr.js@1.0.5
+451 silly currentTree ├── media-typer@0.3.0
+451 silly currentTree ├── merge-descriptors@1.0.0
+451 silly currentTree ├── methods@1.1.2
+451 silly currentTree ├── mime-db@1.21.0
+451 silly currentTree ├── mime-types@2.1.9
+451 silly currentTree ├── morgan@1.6.1
+451 silly currentTree ├── ms@0.7.1
+451 silly currentTree ├── negotiator@0.5.3
+451 silly currentTree ├── on-finished@2.3.0
+451 silly currentTree ├── on-headers@1.0.1
+451 silly currentTree ├── parseurl@1.3.1
+451 silly currentTree ├── path-to-regexp@0.1.7
+451 silly currentTree ├── proxy-addr@1.0.10
+451 silly currentTree ├── qs@4.0.0
+451 silly currentTree ├── range-parser@1.0.3
+451 silly currentTree ├── send@0.13.0
+451 silly currentTree ├── statuses@1.2.1
+451 silly currentTree ├── type-is@1.6.10
+451 silly currentTree ├── unpipe@1.0.0
+451 silly currentTree ├── utils-merge@1.0.0
+451 silly currentTree └── vary@1.0.1
+452 silly idealTree oauthproject@1.0.0
+452 silly idealTree ├── accepts@1.2.13
+452 silly idealTree ├── array-flatten@1.1.1
+452 silly idealTree ├── base64-url@1.2.1
+452 silly idealTree ├── basic-auth@1.0.3
+452 silly idealTree ├── content-disposition@0.5.0
+452 silly idealTree ├── content-type@1.0.1
+452 silly idealTree ├─┬ cookie-parser@1.4.1
+452 silly idealTree │ └── cookie@0.2.3
+452 silly idealTree ├── cookie-signature@1.0.6
+452 silly idealTree ├── cookie@0.1.3
+452 silly idealTree ├── crc@3.4.0
+452 silly idealTree ├── debug@2.2.0
+452 silly idealTree ├── depd@1.0.1
+452 silly idealTree ├── destroy@1.0.3
+452 silly idealTree ├── ee-first@1.1.1
+452 silly idealTree ├── escape-html@1.0.2
+452 silly idealTree ├── etag@1.7.0
+452 silly idealTree ├─┬ express-session@1.13.0
+452 silly idealTree │ ├── cookie@0.2.3
+452 silly idealTree │ └── depd@1.1.0
+452 silly idealTree ├── express@4.13.3
+452 silly idealTree ├── finalhandler@0.4.0
+452 silly idealTree ├── forwarded@0.1.0
+452 silly idealTree ├── fresh@0.3.0
+452 silly idealTree ├── http-errors@1.3.1
+452 silly idealTree ├── inherits@2.0.1
+452 silly idealTree ├── ipaddr.js@1.0.5
+452 silly idealTree ├── media-typer@0.3.0
+452 silly idealTree ├── merge-descriptors@1.0.0
+452 silly idealTree ├── methods@1.1.2
+452 silly idealTree ├── mime-db@1.21.0
+452 silly idealTree ├── mime-types@2.1.9
+452 silly idealTree ├── mime@1.3.4
+452 silly idealTree ├── morgan@1.6.1
+452 silly idealTree ├── ms@0.7.1
+452 silly idealTree ├── negotiator@0.5.3
+452 silly idealTree ├── on-finished@2.3.0
+452 silly idealTree ├── on-headers@1.0.1
+452 silly idealTree ├── parseurl@1.3.1
+452 silly idealTree ├── path-to-regexp@0.1.7
+452 silly idealTree ├── proxy-addr@1.0.10
+452 silly idealTree ├── qs@4.0.0
+452 silly idealTree ├── range-parser@1.0.3
+452 silly idealTree ├── send@0.13.0
+452 silly idealTree ├─┬ serve-static@1.10.2
+452 silly idealTree │ ├── depd@1.1.0
+452 silly idealTree │ ├── destroy@1.0.4
+452 silly idealTree │ ├── escape-html@1.0.3
+452 silly idealTree │ └── send@0.13.1
+452 silly idealTree ├── statuses@1.2.1
+452 silly idealTree ├── type-is@1.6.10
+452 silly idealTree ├── uid-safe@2.0.0
+452 silly idealTree ├── unpipe@1.0.0
+452 silly idealTree ├── utils-merge@1.0.0
+452 silly idealTree └── vary@1.0.1
+453 silly generateActionsToTake Starting
+454 silly install generateActionsToTake
+455 silly generateActionsToTake Finishing
+456 silly diffTrees action count 15
+457 silly diffTrees add base64-url@1.2.1
+458 silly diffTrees add cookie@0.2.3
+459 silly diffTrees add crc@3.4.0
+460 silly diffTrees add cookie@0.2.3
+461 silly diffTrees add depd@1.1.0
+462 silly diffTrees add mime@1.3.4
+463 silly diffTrees add depd@1.1.0
+464 silly diffTrees add destroy@1.0.4
+465 silly diffTrees add escape-html@1.0.3
+466 silly diffTrees add send@0.13.1
+467 silly diffTrees add serve-static@1.10.2
+468 silly diffTrees add uid-safe@2.0.0
+469 silly diffTrees add cookie-parser@1.4.1
+470 silly diffTrees add express@4.13.3
+471 silly diffTrees add express-session@1.13.0
+472 silly decomposeActions action count 120
+473 silly decomposeActions fetch base64-url@1.2.1
+474 silly decomposeActions extract base64-url@1.2.1
+475 silly decomposeActions preinstall base64-url@1.2.1
+476 silly decomposeActions build base64-url@1.2.1
+477 silly decomposeActions install base64-url@1.2.1
+478 silly decomposeActions postinstall base64-url@1.2.1
+479 silly decomposeActions test base64-url@1.2.1
+480 silly decomposeActions finalize base64-url@1.2.1
+481 silly decomposeActions fetch cookie@0.2.3
+482 silly decomposeActions extract cookie@0.2.3
+483 silly decomposeActions preinstall cookie@0.2.3
+484 silly decomposeActions build cookie@0.2.3
+485 silly decomposeActions install cookie@0.2.3
+486 silly decomposeActions postinstall cookie@0.2.3
+487 silly decomposeActions test cookie@0.2.3
+488 silly decomposeActions finalize cookie@0.2.3
+489 silly decomposeActions fetch crc@3.4.0
+490 silly decomposeActions extract crc@3.4.0
+491 silly decomposeActions preinstall crc@3.4.0
+492 silly decomposeActions build crc@3.4.0
+493 silly decomposeActions install crc@3.4.0
+494 silly decomposeActions postinstall crc@3.4.0
+495 silly decomposeActions test crc@3.4.0
+496 silly decomposeActions finalize crc@3.4.0
+497 silly decomposeActions fetch cookie@0.2.3
+498 silly decomposeActions extract cookie@0.2.3
+499 silly decomposeActions preinstall cookie@0.2.3
+500 silly decomposeActions build cookie@0.2.3
+501 silly decomposeActions install cookie@0.2.3
+502 silly decomposeActions postinstall cookie@0.2.3
+503 silly decomposeActions test cookie@0.2.3
+504 silly decomposeActions finalize cookie@0.2.3
+505 silly decomposeActions fetch depd@1.1.0
+506 silly decomposeActions extract depd@1.1.0
+507 silly decomposeActions preinstall depd@1.1.0
+508 silly decomposeActions build depd@1.1.0
+509 silly decomposeActions install depd@1.1.0
+510 silly decomposeActions postinstall depd@1.1.0
+511 silly decomposeActions test depd@1.1.0
+512 silly decomposeActions finalize depd@1.1.0
+513 silly decomposeActions fetch mime@1.3.4
+514 silly decomposeActions extract mime@1.3.4
+515 silly decomposeActions preinstall mime@1.3.4
+516 silly decomposeActions build mime@1.3.4
+517 silly decomposeActions install mime@1.3.4
+518 silly decomposeActions postinstall mime@1.3.4
+519 silly decomposeActions test mime@1.3.4
+520 silly decomposeActions finalize mime@1.3.4
+521 silly decomposeActions fetch depd@1.1.0
+522 silly decomposeActions extract depd@1.1.0
+523 silly decomposeActions preinstall depd@1.1.0
+524 silly decomposeActions build depd@1.1.0
+525 silly decomposeActions install depd@1.1.0
+526 silly decomposeActions postinstall depd@1.1.0
+527 silly decomposeActions test depd@1.1.0
+528 silly decomposeActions finalize depd@1.1.0
+529 silly decomposeActions fetch destroy@1.0.4
+530 silly decomposeActions extract destroy@1.0.4
+531 silly decomposeActions preinstall destroy@1.0.4
+532 silly decomposeActions build destroy@1.0.4
+533 silly decomposeActions install destroy@1.0.4
+534 silly decomposeActions postinstall destroy@1.0.4
+535 silly decomposeActions test destroy@1.0.4
+536 silly decomposeActions finalize destroy@1.0.4
+537 silly decomposeActions fetch escape-html@1.0.3
+538 silly decomposeActions extract escape-html@1.0.3
+539 silly decomposeActions preinstall escape-html@1.0.3
+540 silly decomposeActions build escape-html@1.0.3
+541 silly decomposeActions install escape-html@1.0.3
+542 silly decomposeActions postinstall escape-html@1.0.3
+543 silly decomposeActions test escape-html@1.0.3
+544 silly decomposeActions finalize escape-html@1.0.3
+545 silly decomposeActions fetch send@0.13.1
+546 silly decomposeActions extract send@0.13.1
+547 silly decomposeActions preinstall send@0.13.1
+548 silly decomposeActions build send@0.13.1
+549 silly decomposeActions install send@0.13.1
+550 silly decomposeActions postinstall send@0.13.1
+551 silly decomposeActions test send@0.13.1
+552 silly decomposeActions finalize send@0.13.1
+553 silly decomposeActions fetch serve-static@1.10.2
+554 silly decomposeActions extract serve-static@1.10.2
+555 silly decomposeActions preinstall serve-static@1.10.2
+556 silly decomposeActions build serve-static@1.10.2
+557 silly decomposeActions install serve-static@1.10.2
+558 silly decomposeActions postinstall serve-static@1.10.2
+559 silly decomposeActions test serve-static@1.10.2
+560 silly decomposeActions finalize serve-static@1.10.2
+561 silly decomposeActions fetch uid-safe@2.0.0
+562 silly decomposeActions extract uid-safe@2.0.0
+563 silly decomposeActions preinstall uid-safe@2.0.0
+564 silly decomposeActions build uid-safe@2.0.0
+565 silly decomposeActions install uid-safe@2.0.0
+566 silly decomposeActions postinstall uid-safe@2.0.0
+567 silly decomposeActions test uid-safe@2.0.0
+568 silly decomposeActions finalize uid-safe@2.0.0
+569 silly decomposeActions fetch cookie-parser@1.4.1
+570 silly decomposeActions extract cookie-parser@1.4.1
+571 silly decomposeActions preinstall cookie-parser@1.4.1
+572 silly decomposeActions build cookie-parser@1.4.1
+573 silly decomposeActions install cookie-parser@1.4.1
+574 silly decomposeActions postinstall cookie-parser@1.4.1
+575 silly decomposeActions test cookie-parser@1.4.1
+576 silly decomposeActions finalize cookie-parser@1.4.1
+577 silly decomposeActions fetch express@4.13.3
+578 silly decomposeActions extract express@4.13.3
+579 silly decomposeActions preinstall express@4.13.3
+580 silly decomposeActions build express@4.13.3
+581 silly decomposeActions install express@4.13.3
+582 silly decomposeActions postinstall express@4.13.3
+583 silly decomposeActions test express@4.13.3
+584 silly decomposeActions finalize express@4.13.3
+585 silly decomposeActions fetch express-session@1.13.0
+586 silly decomposeActions extract express-session@1.13.0
+587 silly decomposeActions preinstall express-session@1.13.0
+588 silly decomposeActions build express-session@1.13.0
+589 silly decomposeActions install express-session@1.13.0
+590 silly decomposeActions postinstall express-session@1.13.0
+591 silly decomposeActions test express-session@1.13.0
+592 silly decomposeActions finalize express-session@1.13.0
+593 silly executeActions Starting
+594 silly install executeActions
+595 silly doSerial global-install 0
+596 silly doParallel fetch 15
+597 verbose lock using /home/vagrant/.npm/_locks/staging-dfae0a7cde9e92af.lock for /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging
+598 silly doParallel extract 15
+599 silly extract base64-url@1.2.1
+600 silly extract cookie@0.2.3
+601 silly extract crc@3.4.0
+602 silly extract cookie@0.2.3
+603 silly extract depd@1.1.0
+604 silly extract mime@1.3.4
+605 silly extract depd@1.1.0
+606 silly extract destroy@1.0.4
+607 silly extract escape-html@1.0.3
+608 silly extract send@0.13.1
+609 silly extract serve-static@1.10.2
+610 silly extract uid-safe@2.0.0
+611 silly extract cookie-parser@1.4.1
+612 silly extract express@4.13.3
+613 silly extract express-session@1.13.0
+614 verbose unbuild node_modules/.staging/base64-url-65fa40650457f75314bd3a2276f36b47
+615 verbose unbuild node_modules/.staging/cookie-ee02abf6f237bfde47987025f2e07a65
+616 verbose unbuild node_modules/.staging/cookie-91107c4aed8ef66d5d07c068914471aa
+617 verbose unbuild node_modules/.staging/crc-11c58a30a90b6daf98a021602702d173
+618 verbose unbuild node_modules/.staging/depd-7a5fdfba2f0d7c4c0889b87d2211c39b
+619 verbose unbuild node_modules/.staging/depd-049b5a6f1dde768fc76a011a74d1abcc
+620 verbose unbuild node_modules/.staging/destroy-e52ca9ff54e5ea6a68174a885646359e
+621 verbose unbuild node_modules/.staging/escape-html-1374af8adff478900822e0489ce80ea9
+622 verbose unbuild node_modules/.staging/send-73dac872807fd9e82869ab4442cdcf2b
+623 verbose unbuild node_modules/.staging/serve-static-41a69bf8eaa965caa5299850b2195834
+624 verbose unbuild node_modules/.staging/uid-safe-bd367be57df9a6c63121a4887900902c
+625 verbose unbuild node_modules/.staging/cookie-parser-810bccec3fbce390803632c2624d1d15
+626 verbose unbuild node_modules/.staging/express-0c8551fb24d34e1eeec74b3cb8f2ac22
+627 verbose unbuild node_modules/.staging/express-session-c0ed4d33a62df3b539ffc1458c035210
+628 verbose unbuild node_modules/.staging/mime-76bc70459442b209eddf919e2c11aade
+629 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/base64-url-65fa40650457f75314bd3a2276f36b47 is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+630 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-ee02abf6f237bfde47987025f2e07a65 is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+631 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-91107c4aed8ef66d5d07c068914471aa is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+632 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/crc-11c58a30a90b6daf98a021602702d173 is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+633 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-7a5fdfba2f0d7c4c0889b87d2211c39b is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+634 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-049b5a6f1dde768fc76a011a74d1abcc is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+635 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/destroy-e52ca9ff54e5ea6a68174a885646359e is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+636 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/escape-html-1374af8adff478900822e0489ce80ea9 is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+637 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/send-73dac872807fd9e82869ab4442cdcf2b is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+638 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/serve-static-41a69bf8eaa965caa5299850b2195834 is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+639 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/uid-safe-bd367be57df9a6c63121a4887900902c is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+640 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-parser-810bccec3fbce390803632c2624d1d15 is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+641 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-0c8551fb24d34e1eeec74b3cb8f2ac22 is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+642 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-session-c0ed4d33a62df3b539ffc1458c035210 is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+643 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/base64-url-65fa40650457f75314bd3a2276f36b47
+644 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-ee02abf6f237bfde47987025f2e07a65
+645 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-91107c4aed8ef66d5d07c068914471aa
+646 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/crc-11c58a30a90b6daf98a021602702d173
+647 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-7a5fdfba2f0d7c4c0889b87d2211c39b
+648 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/mime-76bc70459442b209eddf919e2c11aade is being purged from base /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+649 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-049b5a6f1dde768fc76a011a74d1abcc
+650 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/destroy-e52ca9ff54e5ea6a68174a885646359e
+651 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/escape-html-1374af8adff478900822e0489ce80ea9
+652 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/send-73dac872807fd9e82869ab4442cdcf2b
+653 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/serve-static-41a69bf8eaa965caa5299850b2195834
+654 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/uid-safe-bd367be57df9a6c63121a4887900902c
+655 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-parser-810bccec3fbce390803632c2624d1d15
+656 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-session-c0ed4d33a62df3b539ffc1458c035210
+657 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-0c8551fb24d34e1eeec74b3cb8f2ac22
+658 verbose tar unpack /home/vagrant/.npm/cookie/0.2.3/package.tgz
+659 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-ee02abf6f237bfde47987025f2e07a65
+660 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-ee02abf6f237bfde47987025f2e07a65 is being purged
+661 verbose tar unpack /home/vagrant/.npm/base64-url/1.2.1/package.tgz
+662 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/base64-url-65fa40650457f75314bd3a2276f36b47
+663 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/base64-url-65fa40650457f75314bd3a2276f36b47 is being purged
+664 verbose tar unpack /home/vagrant/.npm/cookie/0.2.3/package.tgz
+665 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-91107c4aed8ef66d5d07c068914471aa
+666 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-91107c4aed8ef66d5d07c068914471aa is being purged
+667 verbose tar unpack /home/vagrant/.npm/crc/3.4.0/package.tgz
+668 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/crc-11c58a30a90b6daf98a021602702d173
+669 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/crc-11c58a30a90b6daf98a021602702d173 is being purged
+670 verbose tar unpack /home/vagrant/.npm/depd/1.1.0/package.tgz
+671 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-7a5fdfba2f0d7c4c0889b87d2211c39b
+672 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-7a5fdfba2f0d7c4c0889b87d2211c39b is being purged
+673 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/mime-76bc70459442b209eddf919e2c11aade
+674 verbose tar unpack /home/vagrant/.npm/depd/1.1.0/package.tgz
+675 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-049b5a6f1dde768fc76a011a74d1abcc
+676 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-049b5a6f1dde768fc76a011a74d1abcc is being purged
+677 verbose tar unpack /home/vagrant/.npm/destroy/1.0.4/package.tgz
+678 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/destroy-e52ca9ff54e5ea6a68174a885646359e
+679 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/destroy-e52ca9ff54e5ea6a68174a885646359e is being purged
+680 verbose tar unpack /home/vagrant/.npm/escape-html/1.0.3/package.tgz
+681 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/escape-html-1374af8adff478900822e0489ce80ea9
+682 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/escape-html-1374af8adff478900822e0489ce80ea9 is being purged
+683 verbose tar unpack /home/vagrant/.npm/send/0.13.1/package.tgz
+684 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/send-73dac872807fd9e82869ab4442cdcf2b
+685 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/send-73dac872807fd9e82869ab4442cdcf2b is being purged
+686 verbose tar unpack /home/vagrant/.npm/serve-static/1.10.2/package.tgz
+687 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/serve-static-41a69bf8eaa965caa5299850b2195834
+688 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/serve-static-41a69bf8eaa965caa5299850b2195834 is being purged
+689 verbose tar unpack /home/vagrant/.npm/uid-safe/2.0.0/package.tgz
+690 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/uid-safe-bd367be57df9a6c63121a4887900902c
+691 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/uid-safe-bd367be57df9a6c63121a4887900902c is being purged
+692 verbose tar unpack /home/vagrant/.npm/cookie-parser/1.4.1/package.tgz
+693 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-parser-810bccec3fbce390803632c2624d1d15
+694 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-parser-810bccec3fbce390803632c2624d1d15 is being purged
+695 verbose tar unpack /home/vagrant/.npm/express-session/1.13.0/package.tgz
+696 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-session-c0ed4d33a62df3b539ffc1458c035210
+697 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-session-c0ed4d33a62df3b539ffc1458c035210 is being purged
+698 verbose tar unpack /home/vagrant/.npm/express/4.13.3/package.tgz
+699 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-0c8551fb24d34e1eeec74b3cb8f2ac22
+700 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-0c8551fb24d34e1eeec74b3cb8f2ac22 is being purged
+701 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-ee02abf6f237bfde47987025f2e07a65
+702 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/base64-url-65fa40650457f75314bd3a2276f36b47
+703 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-91107c4aed8ef66d5d07c068914471aa
+704 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/crc-11c58a30a90b6daf98a021602702d173
+705 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-7a5fdfba2f0d7c4c0889b87d2211c39b
+706 verbose tar unpack /home/vagrant/.npm/mime/1.3.4/package.tgz
+707 verbose tar unpacking to /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/mime-76bc70459442b209eddf919e2c11aade
+708 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/mime-76bc70459442b209eddf919e2c11aade is being purged
+709 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-049b5a6f1dde768fc76a011a74d1abcc
+710 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/destroy-e52ca9ff54e5ea6a68174a885646359e
+711 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/escape-html-1374af8adff478900822e0489ce80ea9
+712 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/send-73dac872807fd9e82869ab4442cdcf2b
+713 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/serve-static-41a69bf8eaa965caa5299850b2195834
+714 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/uid-safe-bd367be57df9a6c63121a4887900902c
+715 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-parser-810bccec3fbce390803632c2624d1d15
+716 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-session-c0ed4d33a62df3b539ffc1458c035210
+717 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-0c8551fb24d34e1eeec74b3cb8f2ac22
+718 silly gunzTarPerm modes [ '775', '664' ]
+719 silly gunzTarPerm modes [ '775', '664' ]
+720 silly gunzTarPerm modes [ '775', '664' ]
+721 silly gunzTarPerm modes [ '775', '664' ]
+722 silly gunzTarPerm modes [ '775', '664' ]
+723 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/mime-76bc70459442b209eddf919e2c11aade
+724 silly gunzTarPerm modes [ '775', '664' ]
+725 silly gunzTarPerm modes [ '775', '664' ]
+726 silly gunzTarPerm modes [ '775', '664' ]
+727 silly gunzTarPerm modes [ '775', '664' ]
+728 silly gunzTarPerm modes [ '775', '664' ]
+729 silly gunzTarPerm modes [ '775', '664' ]
+730 silly gunzTarPerm modes [ '775', '664' ]
+731 silly gunzTarPerm modes [ '775', '664' ]
+732 silly gunzTarPerm modes [ '775', '664' ]
+733 silly gunzTarPerm modes [ '775', '664' ]
+734 silly gunzTarPerm extractEntry package.json
+735 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+736 silly gunzTarPerm extractEntry package.json
+737 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+738 silly gunzTarPerm extractEntry package.json
+739 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+740 silly gunzTarPerm extractEntry package.json
+741 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+742 silly gunzTarPerm extractEntry package.json
+743 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+744 silly gunzTarPerm extractEntry package.json
+745 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+746 silly gunzTarPerm extractEntry package.json
+747 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+748 silly gunzTarPerm extractEntry package.json
+749 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+750 silly gunzTarPerm extractEntry package.json
+751 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+752 silly gunzTarPerm extractEntry package.json
+753 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+754 silly gunzTarPerm extractEntry package.json
+755 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+756 silly gunzTarPerm extractEntry package.json
+757 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+758 silly gunzTarPerm extractEntry package.json
+759 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+760 silly gunzTarPerm extractEntry package.json
+761 silly gunzTarPerm modified mode [ 'package.json', 438, 436 ]
+762 silly gunzTarPerm extractEntry package.json
+763 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+764 silly gunzTarPerm extractEntry README.md
+765 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+766 silly gunzTarPerm extractEntry LICENSE
+767 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+768 silly gunzTarPerm extractEntry README.md
+769 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+770 silly gunzTarPerm extractEntry LICENSE
+771 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+772 silly gunzTarPerm extractEntry README.md
+773 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+774 silly gunzTarPerm extractEntry LICENSE
+775 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+776 silly gunzTarPerm extractEntry README.md
+777 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+778 silly gunzTarPerm extractEntry LICENSE
+779 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+780 silly gunzTarPerm extractEntry LICENSE
+781 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+782 silly gunzTarPerm extractEntry index.js
+783 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+784 silly gunzTarPerm extractEntry LICENSE
+785 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+786 silly gunzTarPerm extractEntry index.js
+787 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+788 silly gunzTarPerm extractEntry LICENSE
+789 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+790 silly gunzTarPerm extractEntry index.js
+791 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+792 silly gunzTarPerm extractEntry README.md
+793 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+794 silly gunzTarPerm extractEntry LICENSE
+795 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+796 silly gunzTarPerm extractEntry README.md
+797 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+798 silly gunzTarPerm extractEntry LICENSE
+799 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+800 silly gunzTarPerm extractEntry README.md
+801 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+802 silly gunzTarPerm extractEntry LICENSE
+803 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+804 silly gunzTarPerm extractEntry README.md
+805 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+806 silly gunzTarPerm extractEntry LICENSE
+807 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+808 silly gunzTarPerm extractEntry README.md
+809 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+810 silly gunzTarPerm extractEntry LICENSE
+811 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+812 silly gunzTarPerm extractEntry LICENSE
+813 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+814 silly gunzTarPerm extractEntry index.js
+815 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+816 silly gunzTarPerm extractEntry README.md
+817 silly gunzTarPerm modified mode [ 'README.md', 438, 436 ]
+818 silly gunzTarPerm extractEntry LICENSE
+819 silly gunzTarPerm modified mode [ 'LICENSE', 438, 436 ]
+820 silly gunzTarPerm extractEntry index.js
+821 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+822 silly gunzTarPerm extractEntry HISTORY.md
+823 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+824 silly gunzTarPerm extractEntry session/cookie.js
+825 silly gunzTarPerm modified mode [ 'session/cookie.js', 438, 436 ]
+826 silly gunzTarPerm extractEntry session/memory.js
+827 silly gunzTarPerm modified mode [ 'session/memory.js', 438, 436 ]
+828 silly gunzTarPerm extractEntry session/session.js
+829 silly gunzTarPerm modified mode [ 'session/session.js', 438, 436 ]
+830 silly gunzTarPerm extractEntry session/store.js
+831 silly gunzTarPerm modified mode [ 'session/store.js', 438, 436 ]
+832 silly gunzTarPerm extractEntry .npmignore
+833 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+834 silly gunzTarPerm extractEntry README.md
+835 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+836 silly gunzTarPerm extractEntry Readme.md
+837 silly gunzTarPerm modified mode [ 'Readme.md', 438, 436 ]
+838 silly gunzTarPerm extractEntry index.js
+839 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+840 silly gunzTarPerm extractEntry HISTORY.md
+841 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+842 silly gunzTarPerm extractEntry index.js
+843 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+844 silly gunzTarPerm extractEntry HISTORY.md
+845 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+846 silly gunzTarPerm extractEntry index.js
+847 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+848 silly gunzTarPerm extractEntry lib/crc1.js
+849 silly gunzTarPerm modified mode [ 'lib/crc1.js', 420, 436 ]
+850 silly gunzTarPerm extractEntry lib/crc16_ccitt.js
+851 silly gunzTarPerm modified mode [ 'lib/crc16_ccitt.js', 420, 436 ]
+852 silly gunzTarPerm extractEntry History.md
+853 silly gunzTarPerm modified mode [ 'History.md', 438, 436 ]
+854 silly gunzTarPerm extractEntry Readme.md
+855 silly gunzTarPerm modified mode [ 'Readme.md', 438, 436 ]
+856 silly gunzTarPerm extractEntry lib/browser/index.js
+857 silly gunzTarPerm modified mode [ 'lib/browser/index.js', 438, 436 ]
+858 silly gunzTarPerm extractEntry lib/compat/buffer-concat.js
+859 silly gunzTarPerm modified mode [ 'lib/compat/buffer-concat.js', 438, 436 ]
+860 silly gunzTarPerm extractEntry lib/compat/callsite-tostring.js
+861 silly gunzTarPerm modified mode [ 'lib/compat/callsite-tostring.js', 438, 436 ]
+862 silly gunzTarPerm extractEntry lib/compat/event-listener-count.js
+863 silly gunzTarPerm modified mode [ 'lib/compat/event-listener-count.js', 438, 436 ]
+864 silly gunzTarPerm extractEntry lib/compat/index.js
+865 silly gunzTarPerm modified mode [ 'lib/compat/index.js', 438, 436 ]
+866 silly gunzTarPerm extractEntry History.md
+867 silly gunzTarPerm modified mode [ 'History.md', 438, 436 ]
+868 silly gunzTarPerm extractEntry Readme.md
+869 silly gunzTarPerm modified mode [ 'Readme.md', 438, 436 ]
+870 silly gunzTarPerm extractEntry lib/browser/index.js
+871 silly gunzTarPerm modified mode [ 'lib/browser/index.js', 438, 436 ]
+872 silly gunzTarPerm extractEntry lib/compat/buffer-concat.js
+873 silly gunzTarPerm modified mode [ 'lib/compat/buffer-concat.js', 438, 436 ]
+874 silly gunzTarPerm extractEntry lib/compat/callsite-tostring.js
+875 silly gunzTarPerm modified mode [ 'lib/compat/callsite-tostring.js', 438, 436 ]
+876 silly gunzTarPerm extractEntry lib/compat/event-listener-count.js
+877 silly gunzTarPerm modified mode [ 'lib/compat/event-listener-count.js', 438, 436 ]
+878 silly gunzTarPerm extractEntry lib/compat/index.js
+879 silly gunzTarPerm modified mode [ 'lib/compat/index.js', 438, 436 ]
+880 silly gunzTarPerm extractEntry index.js
+881 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+882 silly gunzTarPerm extractEntry HISTORY.md
+883 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+884 silly gunzTarPerm extractEntry index.js
+885 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+886 silly gunzTarPerm extractEntry HISTORY.md
+887 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+888 silly gunzTarPerm extractEntry index.js
+889 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+890 silly gunzTarPerm extractEntry index.js
+891 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+892 silly gunzTarPerm extractEntry HISTORY.md
+893 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+894 silly gunzTarPerm extractEntry index.js
+895 silly gunzTarPerm modified mode [ 'index.js', 438, 436 ]
+896 silly gunzTarPerm extractEntry HISTORY.md
+897 silly gunzTarPerm modified mode [ 'HISTORY.md', 438, 436 ]
+898 silly gunzTarPerm extractEntry History.md
+899 silly gunzTarPerm modified mode [ 'History.md', 438, 436 ]
+900 silly gunzTarPerm extractEntry Readme.md
+901 silly gunzTarPerm modified mode [ 'Readme.md', 438, 436 ]
+902 silly gunzTarPerm extractEntry lib/application.js
+903 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 436 ]
+904 silly gunzTarPerm extractEntry lib/express.js
+905 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 436 ]
+906 silly gunzTarPerm extractEntry lib/request.js
+907 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 436 ]
+908 silly gunzTarPerm extractEntry lib/response.js
+909 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 436 ]
+910 silly gunzTarPerm extractEntry lib/utils.js
+911 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 436 ]
+912 silly gunzTarPerm extractEntry lib/view.js
+913 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 436 ]
+914 silly gunzTarPerm extractEntry lib/middleware/init.js
+915 silly gunzTarPerm modified mode [ 'lib/middleware/init.js', 438, 436 ]
+916 silly gunzTarPerm extractEntry lib/middleware/query.js
+917 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 438, 436 ]
+918 silly gunzTarPerm extractEntry lib/router/index.js
+919 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 436 ]
+920 silly gunzTarPerm extractEntry lib/router/layer.js
+921 silly gunzTarPerm modified mode [ 'lib/router/layer.js', 438, 436 ]
+922 silly gunzTarPerm extractEntry lib/router/route.js
+923 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 436 ]
+924 silly gunzTarPerm extractEntry LICENSE
+925 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+926 silly gunzTarPerm extractEntry cli.js
+927 silly gunzTarPerm modified mode [ 'cli.js', 420, 436 ]
+928 silly gunzTarPerm extractEntry mime.js
+929 silly gunzTarPerm modified mode [ 'mime.js', 420, 436 ]
+930 silly gunzTarPerm extractEntry build/build.js
+931 silly gunzTarPerm modified mode [ 'build/build.js', 420, 436 ]
+932 silly gunzTarPerm extractEntry lib/crc16_kermit.js
+933 silly gunzTarPerm modified mode [ 'lib/crc16_kermit.js', 420, 436 ]
+934 silly gunzTarPerm extractEntry lib/crc16_modbus.js
+935 silly gunzTarPerm modified mode [ 'lib/crc16_modbus.js', 420, 436 ]
+936 silly gunzTarPerm extractEntry lib/crc16_xmodem.js
+937 silly gunzTarPerm modified mode [ 'lib/crc16_xmodem.js', 420, 436 ]
+938 silly gunzTarPerm extractEntry lib/crc16.js
+939 silly gunzTarPerm modified mode [ 'lib/crc16.js', 420, 436 ]
+940 silly gunzTarPerm extractEntry lib/crc32.js
+941 silly gunzTarPerm modified mode [ 'lib/crc32.js', 420, 436 ]
+942 silly gunzTarPerm extractEntry lib/crc8.js
+943 silly gunzTarPerm modified mode [ 'lib/crc8.js', 420, 436 ]
+944 silly gunzTarPerm extractEntry lib/crc8_1wire.js
+945 silly gunzTarPerm modified mode [ 'lib/crc8_1wire.js', 420, 436 ]
+946 silly gunzTarPerm extractEntry lib/define_crc.js
+947 silly gunzTarPerm modified mode [ 'lib/define_crc.js', 420, 436 ]
+948 silly gunzTarPerm extractEntry lib/index.js
+949 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 436 ]
+950 silly gunzTarPerm extractEntry lib/crc24.js
+951 silly gunzTarPerm modified mode [ 'lib/crc24.js', 420, 436 ]
+952 silly gunzTarPerm extractEntry build/test.js
+953 silly gunzTarPerm modified mode [ 'build/test.js', 420, 436 ]
+954 silly gunzTarPerm extractEntry types.json
+955 silly gunzTarPerm modified mode [ 'types.json', 420, 436 ]
+956 silly doParallel preinstall 15
+957 silly preinstall base64-url@1.2.1 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/base64-url-65fa40650457f75314bd3a2276f36b47
+958 info lifecycle base64-url@1.2.1~preinstall: base64-url@1.2.1
+959 silly preinstall cookie@0.2.3 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-ee02abf6f237bfde47987025f2e07a65
+960 info lifecycle cookie@0.2.3~preinstall: cookie@0.2.3
+961 silly preinstall crc@3.4.0 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/crc-11c58a30a90b6daf98a021602702d173
+962 info lifecycle crc@3.4.0~preinstall: crc@3.4.0
+963 silly preinstall cookie@0.2.3 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-91107c4aed8ef66d5d07c068914471aa
+964 info lifecycle cookie@0.2.3~preinstall: cookie@0.2.3
+965 silly preinstall depd@1.1.0 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-7a5fdfba2f0d7c4c0889b87d2211c39b
+966 info lifecycle depd@1.1.0~preinstall: depd@1.1.0
+967 silly preinstall mime@1.3.4 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/mime-76bc70459442b209eddf919e2c11aade
+968 info lifecycle mime@1.3.4~preinstall: mime@1.3.4
+969 silly preinstall depd@1.1.0 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/depd-049b5a6f1dde768fc76a011a74d1abcc
+970 info lifecycle depd@1.1.0~preinstall: depd@1.1.0
+971 silly preinstall destroy@1.0.4 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/destroy-e52ca9ff54e5ea6a68174a885646359e
+972 info lifecycle destroy@1.0.4~preinstall: destroy@1.0.4
+973 silly preinstall escape-html@1.0.3 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/escape-html-1374af8adff478900822e0489ce80ea9
+974 info lifecycle escape-html@1.0.3~preinstall: escape-html@1.0.3
+975 silly preinstall send@0.13.1 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/send-73dac872807fd9e82869ab4442cdcf2b
+976 info lifecycle send@0.13.1~preinstall: send@0.13.1
+977 silly preinstall serve-static@1.10.2 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/serve-static-41a69bf8eaa965caa5299850b2195834
+978 info lifecycle serve-static@1.10.2~preinstall: serve-static@1.10.2
+979 silly preinstall uid-safe@2.0.0 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/uid-safe-bd367be57df9a6c63121a4887900902c
+980 info lifecycle uid-safe@2.0.0~preinstall: uid-safe@2.0.0
+981 silly preinstall cookie-parser@1.4.1 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/cookie-parser-810bccec3fbce390803632c2624d1d15
+982 info lifecycle cookie-parser@1.4.1~preinstall: cookie-parser@1.4.1
+983 silly preinstall express@4.13.3 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-0c8551fb24d34e1eeec74b3cb8f2ac22
+984 info lifecycle express@4.13.3~preinstall: express@4.13.3
+985 silly preinstall express-session@1.13.0 /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging/express-session-c0ed4d33a62df3b539ffc1458c035210
+986 info lifecycle express-session@1.13.0~preinstall: express-session@1.13.0
+987 silly lifecycle base64-url@1.2.1~preinstall: no script for preinstall, continuing
+988 silly lifecycle cookie@0.2.3~preinstall: no script for preinstall, continuing
+989 silly lifecycle crc@3.4.0~preinstall: no script for preinstall, continuing
+990 silly lifecycle cookie@0.2.3~preinstall: no script for preinstall, continuing
+991 silly lifecycle depd@1.1.0~preinstall: no script for preinstall, continuing
+992 silly lifecycle mime@1.3.4~preinstall: no script for preinstall, continuing
+993 silly lifecycle depd@1.1.0~preinstall: no script for preinstall, continuing
+994 silly lifecycle destroy@1.0.4~preinstall: no script for preinstall, continuing
+995 silly lifecycle escape-html@1.0.3~preinstall: no script for preinstall, continuing
+996 silly lifecycle send@0.13.1~preinstall: no script for preinstall, continuing
+997 silly lifecycle serve-static@1.10.2~preinstall: no script for preinstall, continuing
+998 silly lifecycle uid-safe@2.0.0~preinstall: no script for preinstall, continuing
+999 silly lifecycle cookie-parser@1.4.1~preinstall: no script for preinstall, continuing
+1000 silly lifecycle express@4.13.3~preinstall: no script for preinstall, continuing
+1001 silly lifecycle express-session@1.13.0~preinstall: no script for preinstall, continuing
+1002 silly doReverseSerial remove 0
+1003 silly doSerial move 0
+1004 silly doSerial finalize 15
+1005 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/base64-url
+1006 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/cookie-parser/node_modules/cookie
+1007 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/crc
+1008 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/express-session/node_modules/cookie
+1009 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/express-session/node_modules/depd
+1010 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/mime
+1011 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/serve-static/node_modules/depd
+1012 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/serve-static/node_modules/destroy
+1013 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/serve-static/node_modules/escape-html
+1014 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/serve-static/node_modules/send
+1015 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/serve-static
+1016 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/uid-safe
+1017 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/cookie-parser
+1018 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/express
+1019 silly finalize /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/express-session
+1020 silly doSerial build 15
+1021 silly build base64-url@1.2.1
+1022 info linkStuff base64-url@1.2.1
+1023 silly linkStuff base64-url@1.2.1 has /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules as its parent node_modules
+1024 verbose linkBins base64-url@1.2.1
+1025 verbose linkMans base64-url@1.2.1
+1026 silly build cookie@0.2.3
+1027 info linkStuff cookie@0.2.3
+1028 silly linkStuff cookie@0.2.3 has /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/cookie-parser/node_modules as its parent node_modules
+1029 verbose linkBins cookie@0.2.3
+1030 verbose linkMans cookie@0.2.3
+1031 silly build crc@3.4.0
+1032 info linkStuff crc@3.4.0
+1033 silly linkStuff crc@3.4.0 has /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules as its parent node_modules
+1034 verbose linkBins crc@3.4.0
+1035 verbose linkMans crc@3.4.0
+1036 silly build cookie@0.2.3
+1037 info linkStuff cookie@0.2.3
+1038 silly linkStuff cookie@0.2.3 has /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/express-session/node_modules as its parent node_modules
+1039 verbose linkBins cookie@0.2.3
+1040 verbose linkMans cookie@0.2.3
+1041 silly build depd@1.1.0
+1042 info linkStuff depd@1.1.0
+1043 silly linkStuff depd@1.1.0 has /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/express-session/node_modules as its parent node_modules
+1044 verbose linkBins depd@1.1.0
+1045 verbose linkMans depd@1.1.0
+1046 silly build mime@1.3.4
+1047 info linkStuff mime@1.3.4
+1048 silly linkStuff mime@1.3.4 has /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules as its parent node_modules
+1049 verbose linkBins mime@1.3.4
+1050 verbose link bins [ { mime: 'cli.js' },
+1050 verbose link bins   '/vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.bin',
+1050 verbose link bins   false ]
+1051 verbose linkMans mime@1.3.4
+1052 silly gentlyRm /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.bin/mime is being purged
+1053 verbose gentlyRm don't care about contents; nuking /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.bin/mime
+1054 verbose unlock done using /home/vagrant/.npm/_locks/staging-dfae0a7cde9e92af.lock for /vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.staging
+1055 silly rollbackFailedOptional Starting
+1056 silly rollbackFailedOptional Finishing
+1057 silly runTopLevelLifecycles Starting
+1058 silly runTopLevelLifecycles Finishing
+1059 silly install printInstalled
+1060 warn EPACKAGEJSON oauthproject@1.0.0 No description
+1061 warn EPACKAGEJSON oauthproject@1.0.0 No repository field.
+1062 verbose stack Error: EPROTO: protocol error, symlink '../mime/cli.js' -> '/vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.bin/mime'
+1062 verbose stack     at Error (native)
+1063 verbose cwd /vagrant/StackRouteTraining/nodejsadv/OAuthProject
+1064 error Linux 4.2.0-22-generic
+1065 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+1066 error node v5.4.0
+1067 error npm  v3.3.12
+1068 error path ../mime/cli.js
+1069 error code EPROTO
+1070 error errno -71
+1071 error syscall symlink
+1072 error EPROTO: protocol error, symlink '../mime/cli.js' -> '/vagrant/StackRouteTraining/nodejsadv/OAuthProject/node_modules/.bin/mime'
+1073 error If you need help, you may report this error at:
+1073 error     <https://github.com/npm/npm/issues>
+1074 verbose exit [ -71, true ]
