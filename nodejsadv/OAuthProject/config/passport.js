@@ -2,6 +2,7 @@ var LocalStrategy = require('passport-local').Strategy;
 var User = require('../app/models/user');
 var configAuth = require('./auth');
 var FacebookStrategy = require('passport-facebook').Strategy;
+var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
 module.exports = function(passport){
 
@@ -97,4 +98,38 @@ passport.use(new FacebookStrategy({
 
   }
 ));
+
+passport.use(new GoogleStrategy({
+    clientID: configAuth.googleAuth.clientID,
+    clientSecret: configAuth.googleAuth.clientSecret,
+    callbackURL: configAuth.googleAuth.callbackURL
+  },
+  function(accessToken, refreshToken, profile, done) {
+    process.nextTick(function(){
+      console.log(profile);
+      User.findOne({'google.id' : profile.id},function(err,user){
+        if(err)
+          return done(err);
+        if(user)
+          return done(null,user);
+        else{
+          var newUser = new User();
+          newUser.google.id = profile.id;
+          newUser.google.token = accessToken;
+          newUser.google.name = profile.displayName;
+          newUser.google.email = profile.emails[0].value;
+          newUser.save(function(err){
+            if(err)
+              throw err;
+             console.log('Google Public Information Stored');
+             return done(null,newUser);
+          });
+          console.log(profile);
+        }
+      })
+    });
+
+  }
+));
+
 }
